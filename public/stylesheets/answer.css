@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(cadetblue, lightblue);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#answersContainer {
+  min-height: 100vh; 
+  overflow-y: auto; 
+  padding: 15px; 
+}
+
+
+#answersContainer > div {
+  border-bottom: 2px solid rgb(59, 47, 47);
+  margin-bottom: 5px;
+}

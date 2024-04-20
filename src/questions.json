@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the core module in Node.js for building web servers?",
+    "options": ["http", "fs", "path", "events"],
+    "answer": "http"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT a built-in global object in Node.js?",
+    "options": ["process", "global", "window", "console"],
+    "answer": "window"
+  },
+  {
+    "id": 3,
+    "question": "What does the 'require' function do in Node.js?",
+    "options": ["Imports a module", "Exports a module", "Creates a new module", "Deletes a module"],
+    "answer": "Imports a module"
+  },
+  {
+    "id": 4,
+    "question": "Which event loop phase in Node.js processes I/O operations?",
+    "options": ["Timers", "Poll", "Check", "Close callbacks"],
+    "answer": "Poll"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the 'npm' command in Node.js?",
+    "options": ["Node Package Manager", "Node Process Manager", "Node Package Module", "Node Project Manager"],
+    "answer": "Node Package Manager"
+  },
+  {
+    "id": 6,
+    "question": "Which method is used to execute a function after a specified number of milliseconds in Node.js?",
+    "options": ["setTimeout", "setInterval", "setImmediate", "process.nextTick"],
+    "answer": "setTimeout"
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the 'Buffer' class in Node.js?",
+    "options": ["To handle binary data", "To manipulate strings", "To manage file I/O", "To perform encryption"],
+    "answer": "To handle binary data"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is NOT a valid HTTP method in Node.js?",
+    "options": ["GET", "POST", "PUT", "FETCH"],
+    "answer": "FETCH"
+  },
+  {
+    "id": 9,
+    "question": "What does the 'process.argv' array contain in Node.js?",
+    "options": ["Command-line arguments", "Environment variables", "Node.js version", "List of modules"],
+    "answer": "Command-line arguments"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'events' module in Node.js?",
+    "options": ["To handle events asynchronously", "To create custom events", "To manage network events", "To handle file operations"],
+    "answer": "To create custom events"
+  }
+]
