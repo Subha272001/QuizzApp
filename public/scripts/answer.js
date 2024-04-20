@@ -7,10 +7,7 @@ window.onload = () => {
     // Display the results
     const answersContainer = document.getElementById('answersContainer');
     results.forEach(result => {
-      console.log("answers"+ result.id);
-      console.log("answers"+ result.question);
-      console.log("answers"+ result.selectedAnswer);
-      console.log("answers"+ result.correctOption);
+      
       const questionDiv = document.createElement('div');
       questionDiv.innerHTML = `
         <p>Question ${result.id} :  ${result.question}</p>

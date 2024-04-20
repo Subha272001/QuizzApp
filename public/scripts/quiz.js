@@ -54,13 +54,12 @@ nextButton.addEventListener('click', () => {
   const radioButtons = document.querySelectorAll('input[name="answer"]');
   radioButtons.forEach(radioButton => {
     if (radioButton.checked) {
-      const selectedOption = radioButton.value;
       const labelForOptionId = radioButton.getAttribute('id');
       const labelForOption = document.querySelector(`label[for="${labelForOptionId}"]`);
   
       
-      if (labelForOption) { // Check if labelForOption is not null
-        const selectedAnswer = labelForOption.textContent.trim(); // Retrieve the text content of the label
+      if (labelForOption) { 
+        const selectedAnswer = labelForOption.textContent.trim(); 
        
         answers.push({
           id: questions[currentQuestionIndex].id,

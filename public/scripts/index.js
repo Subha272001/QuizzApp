@@ -2,12 +2,6 @@
 const serverIp = "http://localhost:8080";
 
 window.onload = () => {
-  // const startQuizButton = document.getElementById("start-quiz");
-  
-
-  //   startQuizButton.onclick = () => {
-  //     window.location.href = "/new-quiz";
-  // }
 
   const startQuizButton = document.getElementById("start-quiz");
   
